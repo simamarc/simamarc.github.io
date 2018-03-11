@@ -215,6 +215,11 @@ header p {
 .space {
 	margin-top: 40px;
 }
+
+.small-space {
+	margin-top: 30px;
+}
+
 #services-section i.fa {
 	font-size: 40px;
 	border: 0;
