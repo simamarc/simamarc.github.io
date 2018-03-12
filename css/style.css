@@ -311,7 +311,7 @@ ul.type li a:hover {
 	margin-bottom: 30px;
 }
 .portfolio-item .hover-bg {
-	height: 260px;
+	height: 100%;
 	overflow: hidden;
 	position: relative;
 }
@@ -682,6 +682,8 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 
 .portfolio-link img {
   margin: auto;
+  height: 100%;
+  width: 100%;
 }
 
 .contact-section p {
