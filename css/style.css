@@ -780,3 +780,13 @@ body {
     margin: auto;
   }
 }
+
+.portfolio-modal .modal-body p {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+
+.portfolio-modal .modal-body h2 {
+    font-size: 20px;
+}
