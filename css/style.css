@@ -782,6 +782,7 @@ body {
 }
 
 .portfolio-modal .modal-body p {
+    font-size: 15px;
     text-align: left;
     margin-bottom: 20px;
 }
