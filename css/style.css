@@ -371,6 +371,7 @@ ul.type li a:hover {
 	font-size: 2.5em;
   color: #041927;
 }
+.portfolio-modal .modal-content ol,
 .portfolio-modal .modal-content p {
   margin: auto;
   margin-bottom: 30px;
@@ -781,10 +782,16 @@ body {
   }
 }
 
+.portfolio-modal .modal-body ol,
 .portfolio-modal .modal-body p {
     font-size: 15px;
     text-align: left;
     margin-bottom: 20px;
+}
+
+.portfolio-modal .modal-body ol {
+    list-style: decimal;
+    padding-left: 13px;
 }
 
 
