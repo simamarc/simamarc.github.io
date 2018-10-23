@@ -134,9 +134,12 @@
 
   $('.portfolio-link').on('click', function(e) {
       var modalId = $(this).attr('href');
-      var imgEl = $(modalId).find(".modal-body img");
-      var url = imgEl.attr('lazy-src');
-      imgEl.attr('src', url);
+      var imgEls = $(modalId).find(".modal-body img");
+      
+      imgEls.toArray().forEach(imgEl => {
+        var url = $(imgEl).attr('lazy-src');
+        $(imgEl).attr('src', url);    
+      })
   });
 
   $('.nav a').on('click', function() {
